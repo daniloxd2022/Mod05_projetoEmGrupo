@@ -1,10 +1,10 @@
 const database = require("../../config/database/database");
-const { request } = require("express");
+
 const AnimeDAO = require("../../config/DAO/AnimeDAO");
+const { request } = require("express");
 const animesDAO = new AnimeDAO(database);
 
 class AnimeController {
-  
   static getAllAnimes() {
     return (request, response) => {
       animesDAO

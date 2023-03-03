@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const animesRouter = require("./app/routes/animes.routes");
+const animesRouter = require("./src/app/routes/animes.routes");
 
 const app = express();
 const PORT = process.env.port || 3000;
