@@ -2,12 +2,12 @@
 
 # Dependencias
 
-npm install
-npm i nodemon
-npm i bodyParser
-npm express
-npm sqlite3
-npm start
+npm install </br>
+npm i nodemon </br>
+npm i bodyParser </br>
+npm express </br>
+npm sqlite3 </br>
+npm start 
 
 # Banco de dados em tabela
 
